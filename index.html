@@ -18,7 +18,7 @@
 	<body>
 		<div id="side"> </div>
 		<div class="practicearea">
-			<div class="practice">
+			<div class="practice" id="Start">
 				<h2>August 25 practice</h2>
 
 				<h1>Hello, world</h1>
@@ -57,7 +57,7 @@
 				</ul>
 
 				<p>------------------------------------------------------</p>
-					
+				<p>Required Practice in class</p>	
 				<ol>
 					<li>Inline elements:
 						<ul>
@@ -91,23 +91,296 @@
 
 				<p>------------------------------------------------------</p>
 
-				<p>Play with link: <br>
+				<p> Required practice in class: <br>
 					&nbsp;&nbsp;&nbsp;<a href="https://blackboard.sc.edu/ultra/courses/_1304513_1/outline">USCA BlackBoard</a> <br>
 					&nbsp;&nbsp;&nbsp;<a href="https://www.saxion.edu/">Saxion University of Applied Sciences</a> <br>
 					------------------------------------------------------ <br>
 					&nbsp;&nbsp;&nbsp;<a href="doc/imageMap.html">Image Map</a>
+				</p>
+				<p>Optional practice:
+					<a href="mailto:mariia@usca.edu">Send me an email</a> <br>
+					<a href="#Start">Back to Start</a>
 				</p>
 
 			</div>
 
 
 			<div class="practice">
+				<h2>September 3 practice</h2>
+				<a href="https://www.google.com/chrome/index.html">
+					<img src="img/google.png" alt="Google">
+				</a>
+				<p>&copy; Google</p>
+				<a href="https://en.wikipedia.org/wiki/New_York_City">
+					<img src="img/NYCpicture.jpg" alt="New York City">
+				</a>
+				<!-- <FIGURE> good for image galleries -->
+				<p>------------------------------------------------------</p>
+
+				<table border="1">
+					<tr>
+						<th>Date</th>
+						<th>Topic</th>
+						<th>Assignment</th>
+					</tr>
+					<tr>
+						<td>September 3</td>
+						<td>Link & Table</td>
+						<td>Assignment 3</td>
+					</tr>
+					<tr>
+						<td>September 8</td>
+						<td rowspan="2">NA</td>
+						<td>Assignment 4</td>
+					</tr>	
+					<tr>
+						<td>September 10</td>
+						<!-- <td>NA</td> -->
+						<td>Assignment 5</td>
+					</tr>
+					
+				</table>
 				
+				<p>Required class Practice</p>
+				<table border="1">
+					<tr>
+						<th colspan="4">Temperature distribution in Jan - Apr 2015 (&deg;F)</th>
+					</tr>
+					<tr>
+						<td>Month</td>
+						<td>High</td>
+						<td>Low</td>
+						<td>Average</td>
+					</tr>
+					<tr>
+						<td>January</td>
+						<td>48</td>
+						<td>36</td>
+						<td>40</td>
+					</tr>
+					<tr>
+						<td>February</td>
+						<td>49</td>
+						<td>37</td>
+						<td rowspan="2">43</td>
+					</tr>
+					<tr>
+						<td>March</td>
+						<td>52</td>
+						<td>39</td>
+					</tr>
+					<tr>
+						<td>April</td>
+						<td>58</td>
+						<td>43</td>
+						<td>47</td>
+					</tr>
+				</table>
+				<p>------------------------------------------------------</p>
+				<p>A more complex table</p>
+				<table border="1">
+					<tr>
+						<th rowspan="2"><img src="img/camel.png" alt="Camel"></th>
+						<th colspan="4"><b>Camelid comparison <br> Approximate as of 6/2011</b></th>
+					</tr>
+					<tr>
+						<td><b># of humps</b></td>
+						<td><b>Indigenous region</b></td>
+						<td><b>Spits?</b></td>
+						<td><b>Produces wool?</b></td>
+					</tr>
+					<tr>
+						<td><b>Camels (bactrian)</b></td>
+						<td>2</td>
+						<td>Africa/Asia</td>
+						<td>Yes</td>
+						<td>Yes</td>
+					</tr>
+					<tr>
+						<td><b>Llamas</b></td>
+						<td>1</td>
+						<td>Andes Mountains</td>
+						<td>Yes</td>
+						<td>Yes</td>
+					</tr>
+				</table>
 			</div>
 
 			<div class="practice">
-				
+				<h2>September 8 Practice</h2>
+				<p>-------------------------------------------------------</p>
+				<h2>Form Practice</h2>
+				<form action="" name="FirstForm">
+					<label for="FullName">Full Name:
+						<input type="text" name="FullName">
+					</label>
+					<!--  <p> Enter full name:
+					<input type="text" name="FullName">
+					</p> -->
+					<p> Enter your password:
+						<input type="password" name="pass">
+					</p>
+					<p> Enter your favorite browser:
+						<br>
+						<label> Firefox <input type="checkbox" name="browser" value="Firefox"></label>
+						<label> Chrome <input type="checkbox" name="browser" value="Chrome"></label>
+						<br>
+						<label> Safari <input type="checkbox" name="browser" value="Safari"></label>
+						<label> Opera <input type="checkbox" name="browser" value="Opera"></label>
+					</p>
+					<p>
+						Enter something:
+						<br>
+						<label>Cherry <input type="radio" name="something" value="Cherry"></label>
+						<br>
+						<label>Apple <input type="radio" name="something" value="Apple"></label>
+					</p>
 
+					<p>
+						Pick the operating system that you prefer:
+						<select name="op" size="1">
+							<option value="Windows">Windows</option>
+							<option value="MacOS">MacOS</option>
+							<option value="Linux">Linux</option>
+							<option value="Other">Other</option>
+						</select>
+					</p>
+
+					<p>
+						<input type="submit" value="Submit Form">
+					</p>	
+				</form>
+				<p>-------------------------------------------------------</p>
+				<h2>Required practice</h2>
+				<form action="" name="RequiredForm">
+					<!-- Try Reset, Upload File, Hidden inter control-->
+					<p>
+						<label>Username: <input type="text" name="username"></label>
+						<br>
+						<label>Password: <input type="password" name="password"></label>
+					</p>
+
+					<p> Please select your favorite genre:
+						<br>
+						<label><input type="radio" name="genre" value="Rock">Rock</label>
+						<label><input type="radio" name="genre" value="Pop">Pop</label>
+						<label><input type="radio" name="genre" value="Jazz">Jazz</label>
+					</p>
+
+					<p> Select your favorite music service:
+						<br>
+						<label><input type="checkbox" name="service" value="iTunes">iTunes</label>
+						<label><input type="checkbox" name="service" value="Last.fm">Last.fm</label>
+						<label><input type="checkbox" name="service" value="Spotify">Spotify</label>
+					</p>
+
+					<p>
+						<textarea name="comments" rows="4" cols="40" placeholder="Enter your comments here"></textarea>
+					</p>
+
+					<p>
+						Upload your profile picture:
+						<input type="file" name="ProfilePicture">
+						<!-- <input type="file" name="UploadFile" accept=".jpg, .jpeg, .png"> -->
+					</p>
+
+					<p>
+						<input type="submit" value="Submit Form">
+						<input type="reset" value="Reset Form">
+					</p>
+				</form>	
+
+			</div>
+
+			<div class="practice">
+				<h2>September 10 Practice</h2>
+				<p>-------------------------------------------------------</p>
+				<a href="img/Cat.png" alt="Cat">
+					<img src="img/Cat.png" alt="Cat">
+				</a>
+				<br>
+				<a href="doc/imageMap.html">
+					Image Map
+				</a>
+				<p>-------------------------------------------------------</p>
+				<button>
+					<img src="img/plus.png" alt="plus"> Click Me
+					<p>KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK<br>KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK<br>KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK<br>
+					kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk<br>kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk<br>kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk<br>kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk </p>
+				</button>
+				<!-- HTML5, not working for all browsers	-->
+				<form action="" name="Form2">
+					<p> Play with color: <br>
+						<input type="color" name="play"> <br>
+						<input type="submit" value="Submit">
+					</p>
+					<p> Date: <br>
+						<input type="date" name="Days"> 
+					</p>
+					<p>Email:<br>
+						<input type="email" placeholder="name@example.com" required>  <!-- only check format, not really safe-->
+						<input type="email" placeholder="name@example.com" formnovalidate> <!-- skip validation, no annoying  popups-->
+					</p>
+					<p>Phone number:<br>
+						<input type="tel" placeholder="(xxx)xxx-xxxx" pattern="\(\d{3}\)\d{3}-\d{4}" required>
+					</p>
+					<p>
+						<input type="submit" value="Submit">
+					</p>
+				</form>
+				<hr>
+				<form action="" name="Required practice">
+					<h2>Create a New Account</h2>
+					<p>It's free and always will be.</p> 
+					<p>
+						<input type="text" name="FirstName" placeholder="First Name" required>
+						<input type="text" name="LastName" placeholder="Last Name" required>
+					</p>
+					<p>
+						<input type="text" name="PhoneOrEmail" placeholder="Mobile number or email" size="46" required>
+					</p>
+					<p>
+						<input type="password" name="Password" placeholder="New Password" size="46" required>
+					</p>	
+					<h3>Birthday</h3>
+					<p> 
+						<input type="date" name="Birthday" required> <small>Why do I need to provide my Birthday?</small>
+					</p>
+					<p>
+						<label><input type="radio" name="Gender" value="Female" required> Female</label>
+						<label><input type="radio" name="Gender" value="Male" required> Male</label>
+					</p>
+					<p> <small>By clicking Sign Up, you agree to our Terms, Data Policy <br> and Cookies Policy. You may receive SMS Notifications from us and <br>
+						can opt out at any time.</small>
+					</p>
+					<p>
+						<input type="submit" value="Sign Up">
+					</p>
+				</form>	
+			</div>
+			<div class="practice">
+				<h2>September 15 practice</h2>
+				<form action="">
+					<p>
+						<input type="range" name="TryRange" min="0" max="10" step="1">
+					</p>	
+				</form>
+				<p><b>div</b> - block level, separate the "whole" page into sections <br> <b>span</b> - inline element, separate elements in blosks for "smaller" box inside <br>
+					<b>id</b> - unique identifier for an element, can be only ONE <br> <b>class</b> - can be used multiple times for different elements, usually we use it for style <br>
+					<b>name</b> - used to reference form data after a form is submitted, "field name"<br>
+					<b>Meta</b> - provide metadata about the HTML document, such as character set, author, description, keywords, and viewport settings <br> 
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- what we always need: <i>"-- meta charset="UTF-8" --"</i>
+				</p>
+				<hr>	
+				<iframe width="500" height="300" src="https://www.bing.com/maps/embed?h=300&w=500&cp=33.9975~-81.0256&lvl=17&typ=d&sty=r&q=University%20of%20South%20Carolina%2C%20Columbia%2C%20SC&src=SHELL&FORM=MBEDV8"></iframe>
+				<iframe width="500" height="300" src="https://www.youtube.com/embed/watch?v=9kzE8isXlQY&list=RD9kzE8isXlQY&start_radio=1"></iframe> <br>
+
+				<video width="320" height="240" src="video/puppy.mp4" poster="img/puppy.jpg" controls>
+					<p>This is a video of a puppy.</p>
+				</video>
+				<!-- CHECK IN VALIDATOR -->
+				<h2>VALIDATOR RESULTS:</h2>
+				
 			</div>
 
 		</div>
