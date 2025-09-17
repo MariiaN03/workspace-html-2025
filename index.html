@@ -319,7 +319,7 @@
 					</p>
 					<p>Email:<br>
 						<input type="email" placeholder="name@example.com" required>  <!-- only check format, not really safe-->
-						<input type="email" placeholder="name@example.com" novalidate> <!-- skip validation, no annoying  popups-->
+						<input type="email" placeholder="name@example.com"><!-- novalidate --> <!-- skip validation, no annoying  popups-->
 					</p>
 					<p>Phone number:<br>
 						<input type="tel" placeholder="(xxx)xxx-xxxx" pattern="\(\d{3}\)\d{3}-\d{4}" required>
@@ -380,10 +380,11 @@
 				</video>
 				<!-- CHECK IN VALIDATOR -->
 				<h2>VALIDATOR RESULTS:</h2>
-				<p><small>errors which I wasn't able to solve</small></p>
+				<p><small>errors which I wasn't able to solve & was suprising for me</small></p>
 				<ol>
 					<li>Fee errors about 'border' element, but to solve it we need to use css</li>
 					<li>Emty value for 'action' in form tag</li>
+					<li>I had an error in line 322 for attribute 'novalidate'/'formnovalidate'; Apparently, 'formnovalidate' neinther 'novalidate' is not allowed on element 'input' now</li>
 				</ol>
 				
 			</div>
