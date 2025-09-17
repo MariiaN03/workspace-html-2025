@@ -28,7 +28,7 @@
 				<h5>Hello, world</h5>
 				<h6>Hello, world</h6>
 
-				<img src="img/Cat.png"/>
+				<img src="img/Cat.png" alt="A cute cat">
 				<p>I'm <i>playing</i> </p>
 
 				<ruby>
@@ -295,7 +295,7 @@
 			<div class="practice">
 				<h2>September 10 Practice</h2>
 				<p>-------------------------------------------------------</p>
-				<a href="img/Cat.png" alt="Cat">
+				<a href="img/Cat.png">
 					<img src="img/Cat.png" alt="Cat">
 				</a>
 				<br>
@@ -305,8 +305,8 @@
 				<p>-------------------------------------------------------</p>
 				<button>
 					<img src="img/plus.png" alt="plus"> Click Me
-					<p>KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK<br>KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK<br>KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK<br>
-					kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk<br>kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk<br>kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk<br>kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk </p>
+					KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK<br>KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK<br>KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK<br>
+					kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk<br>kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk<br>kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk<br>kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
 				</button>
 				<!-- HTML5, not working for all browsers	-->
 				<form action="" name="Form2">
@@ -319,7 +319,7 @@
 					</p>
 					<p>Email:<br>
 						<input type="email" placeholder="name@example.com" required>  <!-- only check format, not really safe-->
-						<input type="email" placeholder="name@example.com" formnovalidate> <!-- skip validation, no annoying  popups-->
+						<input type="email" placeholder="name@example.com" novalidate> <!-- skip validation, no annoying  popups-->
 					</p>
 					<p>Phone number:<br>
 						<input type="tel" placeholder="(xxx)xxx-xxxx" pattern="\(\d{3}\)\d{3}-\d{4}" required>
@@ -380,6 +380,11 @@
 				</video>
 				<!-- CHECK IN VALIDATOR -->
 				<h2>VALIDATOR RESULTS:</h2>
+				<p><small>errors which I wasn't able to solve</small></p>
+				<ol>
+					<li>Fee errors about 'border' element, but to solve it we need to use css</li>
+					<li>Emty value for 'action' in form tag</li>
+				</ol>
 				
 			</div>
 
